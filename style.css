@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.add-menu {
+    height: 50px;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.add-menu span {
+    font-weight: 700;
+    font-size: 20px;
+    color: white !important;
+    padding: 20px;
+}
+
+.add-menu:hover {
+    cursor: pointer;
+}
+
+.create-block {
+    display: none;
+}
+.destroy{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    right: -10%;
+    position: absolute;
+    right: -4px;
+    top: -6px;
+    display: inline-block;
+    font-size: 20px;
+}
+.destroy:hover{
+    cursor: pointer;
+}
+.nav-item{
+    position: relative;
+}
